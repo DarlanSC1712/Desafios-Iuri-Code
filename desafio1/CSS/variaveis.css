@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2? family = Lexend + Deca & display = swap');
+@import url('https://fonts.google.com/specimen/Inter');
+
+:root {
+  --blue: #3EA1DB;
+  --blue-dark: #574AE8;
+  --white: #FFF;
+
+  --title: #313131;
+  --text: #B6B6B6;
+  
+  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F3F5F7;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+ /* CONTÉUDO DO HEADER*/
+.container{
+  height: 15.62rem;
+  background: linear-gradient(90deg, rgba(87,74,224,1) 35%, rgba(62,161,219,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.conteudo{
+  margin-right: 1.25rem;
+}
+.link {
+  display: flex;
+  justify-content: space-around;
+}
+.link a {
+  margin: 3rem 1.25rem 2.31rem 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: normal;
+  font-size: 18px;
+}
+.search{
+  height: 2.5rem;
+  max-width: 44.45rem;
+  border-radius: 5px;
+  margin: auto;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+}
+.search img{
+  height: 0.97rem;
+  width: 0.97rem;
+  margin: 0.76rem 0.82rem 0.57rem 0.82rem;
+}
+.search input{
+      margin: auto;
+      margin-left: 20px;
+      border: none;
+      width: 21.87rem;
+      background: none;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: 'Inter', sans-serif;
+      font-weight: normal;
+      color: #fafafa;
+}
+.search input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.search input::placeholder{
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  color: #fafafa;
+}
+
+/* CONTEÚDO DO CARD*/
+
+.container-card{
+  background-color: #FFFF ;
+  max-width: 900px;
+  height: auto;
+  top: 350px;
+  display: flex;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container > .noticia{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.noticia{
+  text-align: justify;
+  margin-bottom: 30px;
+  padding: 15px;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10 0 #13131f 5%;
+  font-family: Lexend Deca;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+
+
+.informacoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.noticia > p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;  
+  color: #717171;
+} 
+
+.informacoes > p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;  
+  color: #717171;
+} 
+
+.titulo{
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.creditos{
+  width: 100%;
+  height: 80px;
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  background: rgb(87,74,232);
+  background: linear-gradient(90deg, rgba(87,74,232,1) 3%, rgba(62,161,219,1) 94%);
+}
+
+
+
+
