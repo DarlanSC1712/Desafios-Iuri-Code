@@ -90,5 +90,21 @@
             </footer>
     
 </div>            
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+    
+    ScrollReveal().reveal('.container-card', { delay: 200 });
+    ScrollReveal().reveal('.date', { delay: 400 });
+    ScrollReveal().reveal('.titulo', { delay: 500 });
+    ScrollReveal().reveal('.informacoes', { delay: 600 });
+</script>
+
     </body>
 </html>
